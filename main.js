@@ -21,7 +21,7 @@ let programme = [
           "<p>Come down to a 2-day graffiti workshop at dai hall! </p>",
       },
     ],
-    link: '<a href="#" target="_blank">Read more...</a>',
+    link: '<a href="sunday-sunday.html" target="_blank">Read more...</a>',
     open: false,
   },
   {
@@ -50,7 +50,7 @@ let programme = [
           "<p>Audrey Chen, Elaine Mitchener and Mariam Rezaei will be performing a free improv set as a trio.</p>",
       },
     ],
-    link: '<a href="#" target="_blank">Go to full programme for the day.</a>',
+    link: '<a href="friday.html" target="_blank">Go to full programme for the day.</a>',
     open: false,
   },
   {
@@ -79,7 +79,7 @@ let programme = [
           "<p>Playing in solo has always been an important part of Mazen Kerbaj’s musical journey; it is in this bare-bones setup that he can experiment the most with his instrument, pushing it beyond any recognition. His use of various every-day objects (tubes, plastic bowls, balloons, aluminium foil…) to “prepare” the trumpet, and his unique playing techniques allow him to create raw soundscapes that sound sometimes like electronics (he himself describes his playing as “electronic music, played acoustically”), especially when he plays several continuous layers of sound at the same time on an instrument that is not designed for that.</p>",
       },
     ],
-    link: '<a href="#" target="_blank">Go to full programme for the day.</a>',
+    link: '<a href="saturday.html" target="_blank">Go to full programme for the day.</a>',
     open: false,
   },
   {
@@ -109,7 +109,7 @@ let programme = [
           "<p>Lau Nau plays a solo concert with modular synthesizer, vocals and field recordings, creating a soundscape of the island where she lives.</p>",
       },
     ],
-    link: '<a href="#" target="_blank">Go to full programme for the day.</a>',
+    link: '<a href="sunday.html" target="_blank">Go to full programme for the day.</a>',
     open: false,
   },
 ];
