@@ -54,9 +54,19 @@ programme.map(function (item) {
     this.classList.toggle("open");
   });
 
+  // All heading elements
   const item_heading_element = document.createElement("div"); // for question in faq in faqs create a div
-  item_heading_element.classList.add("heading"); // give those divs a class of 'question'
-  item_heading_element.innerText = item.date; // set the contents of those divs to the value of faq.question
+  item_heading_element.classList.add("heading"); // give those divs a class of 'heading'
+  item_heading_element.innerHTML =
+    "<h2>" +
+    item.date +
+    "</h2>" +
+    "<h3>" +
+    item.subheading +
+    "</h3>" +
+    "<p>" +
+    item.names +
+    "</p>"; // set the contents of those divs to the heading values
 
   // append together in a hierarchical structure
   item_element.appendChild(item_heading_element);
