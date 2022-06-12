@@ -1,12 +1,58 @@
+@font-face {
+  font-family: "Gulax";
+  src: url("assets/fonts/Gulax-Regular.woff2") format("woff2");
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  /* border: 1px solid red; */
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Gulax";
+}
+
+p {
+  font-family: "Bahnschrift";
 }
 
 body {
-  background-color: #eee;
-  font-family: sans-serif;
+  background-color: #eedbca;
+}
+
+#hero-section {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#hero-section h1 {
+  font-size: 60px;
+  padding: 30px 0;
+  padding-left: 15px;
+  background-color: black;
+  background-image: url("assets/graphics/cable-separator.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  text-align: left;
+}
+
+#hero-section a {
+  text-decoration: none;
+}
+
+#hero-section h2 {
+  background-color: #fff;
+  padding: 15px 0;
+  padding-right: 15px;
+  text-align: right;
 }
 
 .programme {
