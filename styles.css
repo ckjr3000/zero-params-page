@@ -187,6 +187,8 @@ body {
 .ace-logo img {
   max-width: 25%;
   padding: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 @media (max-width: 800px) {
@@ -277,4 +279,65 @@ body {
 
 .photo-description .innersection .innerimage {
   max-width: 100%;
+}
+
+.una-lee {
+  display: flex;
+  flex-direction: column;
+}
+
+.misc-heading h2 {
+  text-align: center;
+  padding-top: 20px;
+  font-size: 40px;
+}
+
+.misc-heading h3 {
+  text-align: center;
+  font-size: 30px;
+}
+
+.misc-page-section {
+  display: flex;
+  background-color: #fff;
+  padding: 20px;
+  margin: 30px;
+  border-radius: 15px;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.misc-page-section-cols {
+  display: flex;
+  background-color: #fff;
+  padding: 20px;
+  margin: 30px;
+  border-radius: 15px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.misc-page-section-cols p {
+  padding-top: 10px;
+}
+
+.misc-page-section p {
+  padding-top: 10px;
+}
+
+.misc-page-section img {
+  max-width: 40%;
+  padding: 20px;
+}
+
+.misc-page-section .inner {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.misc-page-section .inner img {
+  max-width: 90%;
 }
