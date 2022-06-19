@@ -1,7 +1,7 @@
 let programme = [
   {
     heading:
-      "<h2>Monday 11th to Sunday 17th<h2><h3>Performance, exhibition, graffiti workshops</h3><p>Una Lee, Anne-F Jaques, Yonago Tadashi, Muku Kobayashi & Bunchi</p>",
+      "<h2>Sunday 10th to Sunday 17th<h2><h3>Performance, exhibition, graffiti workshops</h3><p>Una Lee, Anne-F Jaques, Yonago Tadashi, Muku Kobayashi, Bunchi, Shame 13th, Number Zwei.</p>",
     content: [
       {
         title:
@@ -26,7 +26,7 @@ let programme = [
   },
   {
     heading:
-      "<h2>Friday 15th</h2><h3>Film screening and performances</h3><p>Bohman Brothers : By Biro And Umbrella Spring (2019), The Bohman Brothers, Arthur Chambry, Elaine Mitchener + Audrey Chen + Mariam Rezaei</p>",
+      "<h2>Friday 15th</h2><h3>Film screening and performances</h3><p><b>Film:</b> Bohman Brothers : By Biro And Umbrella Spring (2019)<br><b>Performances:</b> The Bohman Brothers, Arthur Chambry, Elaine Mitchener + Audrey Chen + Mariam Rezaei</p>",
     content: [
       {
         title:
@@ -50,12 +50,12 @@ let programme = [
           "<p>Audrey Chen, Elaine Mitchener and Mariam Rezaei will be performing a free improv set as a trio.</p>",
       },
     ],
-    link: '<p><a href="friday.html" target="_blank">Go to full programme for the day.</a></p>',
+    link: '<p><a href="friday.html" target="_blank">Full programme for the day.</a></p>',
     open: false,
   },
   {
     heading:
-      "<h2>Saturday 16th</h2><h3>Film screening and performances</h3><p>Sonita (2015), The Heads and the Golds, Ji Youn Kang, Mazen Kerbaj</p>",
+      "<h2>Saturday 16th</h2><h3>Film screening and performances</h3><p><b>Film:</b> Sonita (2015)<br><b>Performances:</b> The Heads and the Golds, Ji Youn Kang, Mazen Kerbaj</p>",
     content: [
       {
         title:
@@ -79,12 +79,12 @@ let programme = [
           "<p>Playing in solo has always been an important part of Mazen Kerbaj’s musical journey; it is in this bare-bones setup that he can experiment the most with his instrument, pushing it beyond any recognition. His use of various every-day objects (tubes, plastic bowls, balloons, aluminium foil…) to “prepare” the trumpet, and his unique playing techniques allow him to create raw soundscapes that sound sometimes like electronics (he himself describes his playing as “electronic music, played acoustically”), especially when he plays several continuous layers of sound at the same time on an instrument that is not designed for that.</p>",
       },
     ],
-    link: '<p><a href="saturday.html" target="_blank">Go to full programme for the day.</a></p>',
+    link: '<p><a href="saturday.html" target="_blank">Full programme for the day.</a></p>',
     open: false,
   },
   {
     heading:
-      "<h2>Sunday 17th<h2><h3>Film screening and performances</h3><p>Tony Conrad : completely in the present (2016), NeAnoNeNoNo (Jorge Boehringer + Lucy Cheesman + Stephen Chase + Theo Gowans), Leafcutter John, Lau Nau</h2>",
+      "<h2>Sunday 17th<h2><h3>Film screening and performances</h3><p><b>Film:</b> Tony Conrad : completely in the present (2016)<br><b>Performances:</b> NeAnoNeNoNo (Jorge Boehringer + Lucy Cheesman + Stephen Chase + Theo Gowans), Leafcutter John, Lau Nau</h2>",
     content: [
       {
         title:
@@ -109,7 +109,7 @@ let programme = [
           "<p>Lau Nau plays a solo concert with modular synthesizer, vocals and field recordings, creating a soundscape of the island where she lives.</p>",
       },
     ],
-    link: '<p><a href="sunday.html" target="_blank">Go to full programme for the day.</a><p>',
+    link: '<p><a href="sunday.html" target="_blank">Full programme for the day.</a><p>',
     open: false,
   },
 ];

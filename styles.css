@@ -31,16 +31,25 @@ body {
   justify-content: center;
 }
 
-#hero-section h1 {
-  font-size: 75px;
-  padding: 50px 0;
-  padding-left: 25px;
+#hero-section .logo {
+  display: flex;
+  flex-direction: row;
   background-color: black;
   background-image: url("assets/graphics/fat-cables.png");
   background-repeat: no-repeat;
   background-size: cover;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+#hero-section .logo h1 {
+  font-size: 80px;
   color: white;
   text-align: left;
+}
+
+#hero-section .logo img {
+  max-width: 22%;
 }
 
 #hero-section a {
